@@ -114,7 +114,14 @@ i{
 .email {
 	width: 33%;
 	text-align: right;
+}
 
+.email a{
+	color: #fff;
+}
+
+.email a :hover{
+ color: #3ABCDE;
 }
 
 .nav {
