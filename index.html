@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nova Santé</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
      <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,18 +34,20 @@
             <span></span>
          </div>
          <div class="header-menu">
-            <li>
-               <a href="#" class="header-link">Main</a>
-            </li>
-            <li>
-               <a href="#" class="header-link">About</a>
-            </li>
-            <li>
-               <a href="#" class="header-link">Service</a>
-            </li>
-            <li>
-               <a href="#" class="header-link">Contact</a>
-            </li>
+            <ul>
+               <li>
+                  <a href="#" class="header-link">Main</a>
+               </li>
+               <li>
+                  <a href="#" class="header-link">About</a>
+               </li>
+               <li>
+                  <a href="#" class="header-link">Service</a>
+               </li>
+               <li>
+                  <a href="#" class="header-link">Contact</a>
+               </li>
+            </ul>
          </div>
               <div class="btn"><button class="button">Book a consultation</button></div>
      </div>
@@ -182,6 +185,15 @@
             <span>Nova Santé. All rights reserved.</span>
          </div>
      </footer>
+<script>
+const burger = document.querySelector('.header-burger');
+const menu = document.querySelector('.header-menu');
+
+burger.addEventListener('click', () => {
+    burger.classList.toggle('active');
+    menu.classList.toggle('active');
+});
+</script>
+
 </body>
 </html>
-
