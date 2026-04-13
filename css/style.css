@@ -515,9 +515,10 @@ footer{
   .contact{
     width: 1120px;
     margin: 0 auto;
+    padding-bottom: 24px;
   }
 
-    .contact-cards{
+  .contact-cards{
   display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
