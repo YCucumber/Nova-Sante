@@ -212,7 +212,7 @@ a :hover{
 
 .baner {
   width: 100%;
-  background: url('/images/banner-background-mobile.png');
+  background: url('../images/banner-background-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -220,7 +220,7 @@ a :hover{
 }
 
 .baner img{
-  display: none;
+  /* display: none; */
 }
 
 .baner h1{
@@ -279,7 +279,7 @@ a :hover{
 }
 
 .about .content{
-  background: url('/images/banner-background-mobile.png');
+  background: url('../images/banner-background-mobile.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -506,7 +506,7 @@ footer{
   }
 
   .about-wrapper{
-    background-image: url('/images/about-img.png');
+    background-image: url('../images/about-img.png');
     background-size:contain;
     background-position: right;
     background-repeat: no-repeat;
